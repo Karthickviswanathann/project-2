@@ -1,0 +1,87 @@
+.outer{
+  height: 100vh;
+  background-image: url('/../assets/Banners/Login background.png') !important;
+  width: 100% !important;
+  overflow:hidden!important;
+}
+
+.panel-heading{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#forget{
+  min-width: 100px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.form-inline label{
+  margin: 0;
+  padding-left: 10px;
+  cursor:pointer ;
+}
+
+.btn{
+  margin-top: 5px;
+  border-radius: 15px;
+}
+
+.panel{
+  min-height: 388px;
+  background-color: transparent;
+  border-radius: 12px;
+  margin-top: 100px;
+  
+}
+
+.input-field{
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid rgb(85, 140, 2);
+  color: rgb(16, 4, 4);
+}
+
+.input-field.error{
+  border: 1px solid red;
+  color: red;
+}
+
+input[type='text'],
+[type='password']
+{
+  border: none;
+  width: 100%;
+  outline: none;
+  box-shadow: none;
+  object-fit: cover;
+  background: none ;
+}
+
+.fa-eye-slash.btn{
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background: none;
+}
+
+
+
+img{
+  width:  40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
+
+

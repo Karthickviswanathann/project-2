@@ -1,0 +1,59 @@
+ul li {
+   list-style: none;
+   margin-top: 3px;
+}
+
+ul li a {
+   text-decoration: none;
+      }
+.container ul li a:hover {
+ cursor: pointer; 
+ transition: all;
+ animation-duration: 600ms;
+}
+
+.border{
+align-items:center;
+justify-content: space-between;
+}
+.main-menu li a{
+   color: burlywood;
+   justify-content: space-between!important;
+}
+
+ :host ::ng-deep .navbar-brand {
+  height:11rem;
+}
+
+:host ::ng-deep .border {
+   height:4rem;
+ }
+.brand ul li a:hover{
+   color: blueviolet;
+}
+
+ul li img {
+   margin-left: -13px;
+}
+
+ul li span{
+   padding-left: 5px;
+}
+
+.text-white span{
+   color: aliceblue;
+}   
+
+.main-list li a{
+   color: aliceblue;
+}
+
+
+.user li a{
+   color: aliceblue;
+}
+
+
+
+
+

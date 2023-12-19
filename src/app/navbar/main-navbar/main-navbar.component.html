@@ -1,0 +1,273 @@
+
+
+<header class="fixed-top" style="position: absolute;width: 100%;;">
+   <div class="d-none d-lg-block bg-dark " style="height: 30px;">
+    <div class="container mx-auto  ">
+        <ul class="d-flex justify-content-between  text-white">
+            <li><a routerLink="#" ><i class="fa-solid fa-phone"></i><span>+0421 819171</span></a></li>
+            <li><a routerLink="#"><i class="fa-regular fa-envelope"></i><span>shopCake@gmail.in</span></a></li>
+            <li style="margin-top: -20px;"><a routerLink="#"><span>fast delivery</span><img src="assets\scooty.png" height="70px" ></a></li>
+            <li>
+              <ul class="d-flex gap-3 brand">
+                <li><a href="#"><i class="fa-brands fa-facebook" style="color: #1f4bb2;"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram" style="color: #cb105b;"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube" style="color: #cc2424;"></i></a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+   </div>
+
+
+<div class="  {{isMenuScrolled?'fixed-top mt-0 bg-dark shadow slide-in-down':'pt-4'}}" style="transition: top 0.3s;" >
+ <div class=" d-flex container justify-content-between align-items-center {{isMenuScrolled?'border border-2 border-dark':' border border-2 '}}" >
+
+   <a href="#">
+    <img class="navbar-brand d-inline-block" src="assets/Banners/BrandLogo.png" >
+   </a>
+
+  
+  <ul class=" d-none d-lg-block d-lg-flex gap-5 main-list  fw-bold mt-2">
+    <li class="nav-link">
+      <a  [routerLink]="['/']">Home</a>
+    </li>
+    <li class="nav-link ">
+      <a [routerLink]="['']">About</a>
+    </li>
+
+    <li class="nav-link ">
+      <a  [routerLink]="['/menu']">Menu</a>
+    </li>
+    <li class="nav-link  ">
+      <a  [routerLink]="['']">Pages</a>
+    </li>
+  </ul>
+
+  <ul class=" d-none d-lg-flex d-lg-block   gap-5 justify-content-between fw-bold user ">
+    <li class=" pr-5 ">
+      <a  [routerLink]="['/login']" class="btn btn-info mt-2"><i class="fa-regular fa-user" style="color: #f5f7f9;font-weight: bold;font-size: 13px;"></i>Login</a>
+    </li>
+  
+  </ul>
+    <div class="mobile-toggler d-lg-none">
+      <a href="#" data-bs-model="model" data-bs-target="#navbModal">
+         <i class="fa-solid fa-bars" style="color: aliceblue;font-size: 20px;"></i>
+      </a>
+    </div>
+
+ </div>
+</div>
+</header>
+
+
+
+
+
+
+
+<div class="mt-6">
+  <app-top-banners></app-top-banners> 
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--   
+<nav class="navbar navbar-expand-lg fixed-top " style="background-color: grey;">
+  <div class="container-fluid">
+
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" [routerLink]="['/']">Home</a>
+          </li>
+         
+          <li class="nav-item ">
+            <a class="nav-link " style="margin-left: 5rem;" [routerLink]="['']">About</a>
+         
+  
+        </li> 
+      
+      
+          <a routerLink="#"><img src="assets/Banners/BrandLogo.png"  style="height:13rem; margin-left: 2rem;padding-left:35px;"></a>
+       
+        
+          <li class="nav-item">
+            <a class="nav-link "  style="margin-left: 2.5rem;" [routerLink]="['/menu']">Menu</a>
+  
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="margin-left: 6rem;" routerLink="#" >Pages</a>
+          </li>
+  
+         
+        </ul>
+
+
+         
+      </div>
+    <a class="login-button" routerLink="/login">Login </a>
+    <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+</nav> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+<app-search></app-search>
+<app-tags></app-tags>
+<ul>
+    <li *ngFor="let cake of cakes">    
+       <div class="card">
+        <a routerLink="/cake/{{cake.id}}" class="image">
+            <img src="{{cake.image1}}"  class="img-fluid product-image-first"  > 
+            <img src="{{cake.image2}}" class="img-fluid product-image-secontary">
+           </a>
+           <div class="product-heading">
+            
+            <h3>{{cake.name}}</h3>
+          </div>
+
+          <span class="favorite {{cake.favorite?' ':'not'}}" >
+            <i class="fa-solid fa-heart"></i>
+          </span>
+          <p class="parah">₹{{cake.price}}<del>₹{{cake.eprice}}</del><b>(40%)</b>
+          </p>
+          
+          <div>
+          <ngb-rating [max]="5" [(rate)]="cake.stars" [readonly]="true" size="22px"></ngb-rating>
+       
+            <a class="btn btn-danger button" type="button">
+              <i class="fa-solid fa-cart-plus"></i></a>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="card">
+    <div class="card-main">
+         
+   <a href="#" class="image">
+   <img src="assets\cards\birthday cakes\Black Current.jpg"  class="img-fluid product-image-first"  > 
+   <img src="assets\Discription\Des1.png" class="img-fluid product-image-secontary">
+  </a>
+      <div class="product-heading">
+        
+        <h3>Black Current</h3>
+        <div class="rating">
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i> 
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+        </div>
+        <p class="parah">₹299<del style="font-size: 15px;">499</del><b style="color: red;padding-left: 2px;">(40%)</b><span>
+            <a class="btn btn-danger button" type="button">
+              <i class="fa-solid fa-cart-shopping" style="font-size: 18px;"></i></a></span></p>
+             
+      </div>
+     </div>
+   </div> -->
+<!-- <div class="card-item">
+          <li><a href=""><i class="fa fa-heart"></i></a></li>
+         </div> -->

@@ -1,0 +1,29 @@
+
+.contact{
+    border-radius: 5px;
+
+}
+
+
+.outline-light{
+    background: white;
+}
+
+.form-control{
+    background: transparent;
+}
+input:hover{
+background: white;
+}
+
+
+input:focus{
+    background-color: rgb(253, 255, 253);
+    color: rgb(14, 13, 13)!important;
+    box-shadow: none;
+}
+
+input::placeholder{
+color: rgb(5, 5, 5);
+}
+

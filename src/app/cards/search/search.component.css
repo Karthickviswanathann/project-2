@@ -1,0 +1,35 @@
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding:0rem  0  4rem 0;
+    justify-content: end;
+}
+
+
+input{
+    border-radius: 10rem 0 0 10rem;
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(239, 234, 233);
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+}
+
+
+div button{
+    color: black;
+    height: 3rem;
+    width: 4rem;
+    font-size: 1rem;
+    border-radius: 0 10rem 10rem 0;
+    border: none;
+    background-color: rgb(255, 72, 0);
+    color: aliceblue;
+    opacity: 0.8;
+    outline: none;
+}

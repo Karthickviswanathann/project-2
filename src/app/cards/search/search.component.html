@@ -1,0 +1,4 @@
+<div>
+    <input #s type="text" placeholder="Search Cakes" (keyup.enter)="search(s.value)">
+    <button (click)="search(s.value)" [value]="searchTerm"><i class="fa-solid fa-magnifying-glass"></i></button>
+</div>
